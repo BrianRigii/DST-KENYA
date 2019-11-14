@@ -144,9 +144,13 @@ animation: shake 0.1s infinite;
     display:none
 }
 
+/* button in index.html */
+#rc:hover{
+    background-color:orange;
+    color: black;
+    font-size: larger;
 
-
-
+}
 
 
 
