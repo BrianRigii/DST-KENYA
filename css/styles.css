@@ -112,6 +112,11 @@
   animation: shake 0.1s infinite;
 }
 
+.interest{
+    color: orange;
+    background-color: black;
+}
+
 @keyframes shake {
   from {
     transform: translateX();
@@ -162,9 +167,5 @@
 .start{
     margin-top: 10vh;
     margin-left: 30vh;
-}
-.int{
-    padding-top: 25vh;
-    padding-bottom: 25vh;
 }
 
