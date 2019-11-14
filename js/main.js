@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
     $(".sprints").click(function() {
-      $(".sprint").toggle();
+      $(".sprint").show();
       $(".circuit").hide();
       $(".drag").hide();
     });   
@@ -10,7 +10,7 @@ $(document).ready(function() {
 
   $(document).ready(function() {
     $(".circuits").click(function() {
-      $(".circuit").toggle();
+      $(".circuit").show();
       $(".drag").hide();
       $(".sprint").hide();
     });   
@@ -23,6 +23,11 @@ $(document).ready(function() {
       $(".sprint").hide();
     });   
   });
+
+
+  function race1(){
+      alert(  " be there 30 min to race time")
+  }
 
 
 
