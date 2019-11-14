@@ -113,7 +113,7 @@ color: orange;
 #about{
     color:orange;
     background-color:black;
-    font-size: 10px;
+    font-size: 17px;
     font: bold;
     text-align: left; 
 }
@@ -145,6 +145,9 @@ animation: shake 0.1s infinite;
 }
 
 /* button in index.html */
+#rc{
+    color: orange;
+}
 #rc:hover{
     background-color:orange;
     color: black;
