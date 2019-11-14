@@ -36,38 +36,24 @@
 
     <!-- interest section -->
     <div class="interest">
-      <div class="container-fluid mr0">
-        <div class="row">
-          <div class="col-12">
-            <div class="card  mr0">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <img
-                    src="images/interest.jpeg"
-                    class="card-img "
-                    alt="interest"
-                    height="310vh"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body kardbody ">
-                    <h5 class="card-title heading">Be part of something</h5>
-                    <p class="card-text">
-                      Are you interested in becoming part of something bigger
-                      and better? If so, we invite you to explore our website
-                      and chat with some of our club members, and if you feel
-                      that you are of the same mindset as us, and want something
-                      better in a car club, something better for your community,
-                      for your family and for yourself, then we encourage you to
-                      be an a affiliate — we’d enjoy for you to become part of
-                      the team.
-                    </p>
-                    <p class="card-text ">
-                      <small class="text-muted">DST-KENYA TEAM</small>
-                    </p>
-                  </div>
-                </div>
-              </div>
+      <div class="container-fluid">
+        <div class="row ">
+          <div class="col-4 dark">
+            <img src="images/rim.jpeg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-6 mt-4">
+            <h1>DST-KENYA</h1>
+            <!-- About section -->
+            <div class="about mt-4" id="about">
+              <p>
+                DST-KENYA is a website of competitive sporting events for
+                adrenaline junkies, <br />
+                which primarily involves the use of motorised Vehicles <br />
+                (enclosed-4-wheel), for racing in three categories: <br />
+                <li>CIRCUIT RACE</li>
+                <li>SPRINT RACE</li>
+                <li>DRAG RACE</li>
+              </p>
             </div>
           </div>
         </div>
@@ -77,75 +63,75 @@
     <!-- Registration -->
     <div class="registration">
       <div class="container-fluid">
-        <h1 class="heading">Registration</h1>
-        <!-- About section -->
-        <div class="about mt-4" id="about">
-          <p>
-            DST-KENYA is a website of competitive sporting events for adrenaline
-            junkies, <br />
-            which primarily involves the use of motorised Vehicles <br />
-            (enclosed-4-wheel), for racing in three categories: <br />
-            <li>CIRCUIT RACE</li>
-            <li>SPRINT RACE</li>
-            <li>DRAG RACE</li>
-          </p>
-        </div>
         <div class="row d-flex justify-content-between">
-          <div class="col-5">
-            <div class="cardmt">
-              <div class=" dark">
-                <div class=" formstyle">
-                  <form>
-                    <i class="fas fa-crown fa-2x orange"></i>
-                    <input
-                      type="text"
-                      name=""
-                      id="name"
-                      placeholder="Name"
-                      class="  m-4"
-                    />
-                    <br />
-                    <i class="fab fa-teamspeak fa-2x orange"></i>
-                    <input
-                      type="text"
-                      placeholder="Street Name"
-                      class="m-4"
-                      id="street"
-                    /><br />
-                    <i class="fas fa-beer fa-2x orange"></i>
-                    <input
-                      type="number"
-                      placeholder="Age"
-                      class="m-4"
-                      id="age"
-                    /><br />
-                    <i class="fas fa-wrench fa-2x orange"></i>
-                    <input
-                      type="text"
-                      placeholder="Vehicle"
-                      class="  m-4"
-                      id="vehicle"
-                    />
-                    <br />
-                    <button type="button" class="btn" onclick="register()" href ="" id="regbtn">
-                      Race
-                    </button>
-                  </form>
+          <div class="col-2">
+            <div class="bepart">
+              <h1>Be <br />part <br />Of <br />Something <br />Amazing</h1>
+            </div>
+          </div>
+          <div class="col-7">
+            <!-- danger -->
+            <div class=" formstyle">
+              <div class="cardmt">
+                <div class="card ">
+                  <div class="card-body shadow2 dark height">
+                    <h1 class="heading">Registration</h1>
+                    <form>
+                      <i class="fas fa-crown fa-2x orange"></i>
+                      <input
+                        type="text"
+                        name=""
+                        id="name"
+                        placeholder="Name"
+                        class="  m-4"
+                      />
+                      <br />
+                      <i class="fab fa-teamspeak fa-2x orange"></i>
+                      <input
+                        type="text"
+                        placeholder="Street Name"
+                        class="m-4"
+                        id="street"
+                      /><br />
+                      <i class="fas fa-beer fa-2x orange"></i>
+                      <input
+                        type="number"
+                        placeholder="Age"
+                        class="m-4"
+                        id="age"
+                      /><br />
+                      <i class="fas fa-wrench fa-2x orange"></i>
+                      <input
+                        type="text"
+                        placeholder="Vehicle"
+                        class="  m-4"
+                        id="vehicle"
+                      />
+                      <br />
+                      <div class="start">
+                        <a href="race.html"
+                          ><button type="button" class="btn btn-warning">
+                            Get Started &nbsp;<i
+                              class="fas fa-cogs"
+                            ></i></button
+                        ></a>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-5">
-            <div class="Rimg"></div>
           </div>
         </div>
       </div>
     </div>
     <!-- link javascript files -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-    
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="js/main.js"></script> -->
   </body>
 </html>

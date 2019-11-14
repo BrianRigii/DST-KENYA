@@ -1,109 +1,101 @@
 .landing {
-    background-image: url("../images/landing.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 100vh;
-   
+  background-image: url("../images/landing.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
 }
-.mr0{
-    margin:0px;
-    padding:0px;
+.mr0 {
+  margin: 0px;
+  padding: 0px;
 }
 .orange {
-color: orange;
+  color: orange;
 }
 
-.landtxt{
-    position: absolute;
-    top:30vh;
-    font-family: 'Sedgwick Ave Display', cursive;
-    
-
+.landtxt {
+  position: absolute;
+  top: 30vh;
+  font-family: "Sedgwick Ave Display", cursive;
 }
-.landtxt h1{
-    font-size: 10vh;
-    color: rgba(128, 128, 128, 0.692)
+.landtxt h1 {
+  font-size: 10vh;
+  color: rgba(128, 128, 128, 0.692);
 }
-.landtxt h2{
-    font-size: 10vh;
-    color:orange
+.landtxt h2 {
+  font-size: 10vh;
+  color: orange;
 }
 
-.registration{
-    background-color: #000000
+.registration {
+  background-image: url("../images/print.jpeg");
 }
 
-.formstyle input{
-    border-top: none;
-    border-left: orange solid 5px;
-    border-right: none;
-    color:orange ;
-    background: #000000;
-    border-bottom: orange solid 1px;
-    padding-left: 5vh;
-    
+.formstyle input {
+   
+  border-top: none;
+  border-left: orange solid 5px;
+  border-right: none;
+  color: orange;
+  background-color: #000000;
+  border-bottom: orange solid 1px;
+  padding-left: 5vh;
+  margin-top: 
+  
 }
 .dark {
-    background-color: #000000;
+  background-color: #000000;
 }
 
+.cardmt {
+  margin-top: 25vh;
+}
+.kardbody {
+  background-color: #090f1a;
+}
+.kardbody p {
+  color: orange;
+  margin-top: 6vh;
+}
+.kardbody h5 {
+  color: orange;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 2vw;
+  margin-top: 4vh;
+}
 
-.cardmt{
-    margin-top: 10vh;
-}
-.kardbody{
-    background-color: #090f1a;
-}
-.kardbody p{
+.bepart h1{
+    font-family: "Sedgwick Ave Display", cursive;
     color:orange;
-    margin-top:6vh
-
+    margin-top: 15vh;
+    font-size: 15vh;
 }
-.kardbody h5{
-    color: orange;
-    font-family:'Sedgwick Ave Display', cursive; 
-    font-size: 2vw;
-    margin-top: 4vh;
-}
-
-
-.Rimg{
-    background-image: url("../images/register.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 100vh;
-}
-
-
 
 /* place holder color */
 ::-webkit-input-placeholder {
-    color: orange
-    !important
+  color: orange !important;
 }
-:-ms-input-placeholder{
-    color: orange;
+:-ms-input-placeholder {
+  color: orange;
 }
-::-moz-placeholder{
-    color: orange;
-    opacity: 1;
+::-moz-placeholder {
+  color: orange;
+  opacity: 1;
 }
-:-moz-placeholder{
-    color: red;
-    opacity: 1;
+:-moz-placeholder {
+  color: red;
+  opacity: 1;
 }
 
 /* heading css */
-.heading{
-    color: orange;
-    font-family: 'Shadows Into Light', cursive;
+.heading {
+  color: orange;
+  font-family: "Shadows Into Light", cursive;
 }
 
-.bgblack{
-    background-color: black;
-    box-shadow: 0 4px 8px 0 rgba(247, 243, 243, 0.63)
+.bgblack {
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(247, 243, 243, 0.63);
 }
 .races{
     background-image: url("../images/brickwall.jpeg");
@@ -113,44 +105,69 @@ color: orange;
 }
 
 /* About buttons */
-#about{
-    color:orange;
-    background-color:black;
-    font-size: 10px;
-    font: bold;
-    text-align: left; 
+#about {
+  font: bold;
+  text-align: left;
 }
 
 /* KeyFrame */
-.shake{
-animation: shake 0.1s infinite;
+.shake {
+  animation: shake 0.1s infinite;
 }
 
 @keyframes shake {
-    from{
-        transform: translateX();
-    }
-    to{
-        transform: translateX(10px);
-        
-    }
-   }
+  from {
+    transform: translateX();
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
 /*hide display for sprints circuit drag*/
 
-.sprint{
-    display:none
+.sprint {
+  display: none;
 }
-.circuit{
-    display:none
+.circuit {
+  display: none;
 }
-.drag{
-    display:none
+.drag {
+  display: none;
 }
 
+/*font family styling*/
+.category {
+  font-family: "Audiowide", cursive;
+  font-size: 30px;
+}
+.category1 {
+  font-family: "Autour One", cursive;
+}
+.container2 {
+  font-family: "Volkhov", serif;
+}
 
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
+.shadow2 {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+}
+.timer {
+  color: orange;
+}
+.timer p {
+  font-size: 15vh;
+  font-family: "Wallpoet", cursive;
+}
 
+.start{
+    margin-top: 10vh;
+    margin-left: 30vh;
+}
 
+<<<<<<< HEAD
 
 
    /*font family styling*/
@@ -186,3 +203,5 @@ animation: shake 0.1s infinite;
        font-size: 15vh;
         font-family: 'Wallpoet', cursive;
    }
+=======
+>>>>>>> eab7d00d71c7b32e7c27e2c5b1f5276b92ac95c4
