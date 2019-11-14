@@ -100,8 +100,8 @@
 .races{
     background-image: url("../images/brickwall.jpeg");
     color:orange;
-    font-family: 'Covered By Your Grace', cursive;
-    font-size:30px ;
+    font-family: 'Courgette', cursive;
+    font-size:20px ;
 }
 
 /* About buttons */
@@ -167,7 +167,6 @@
     margin-left: 30vh;
 }
 
-<<<<<<< HEAD
 
 
    /*font family styling*/
@@ -203,5 +202,3 @@
        font-size: 15vh;
         font-family: 'Wallpoet', cursive;
    }
-=======
->>>>>>> eab7d00d71c7b32e7c27e2c5b1f5276b92ac95c4
