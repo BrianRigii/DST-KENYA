@@ -18,7 +18,7 @@ $(document).ready(function() {
 
   $(document).ready(function() {
     $(".drags").click(function() {
-      $(".drag").show();
+      $(".drag").toggle();
       $(".circuit").hide();
       $(".sprint").hide();
     });   
