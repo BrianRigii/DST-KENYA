@@ -97,8 +97,11 @@
   background-color: black;
   box-shadow: 0 4px 8px 0 rgba(247, 243, 243, 0.63);
 }
-.races {
-  background-image: url("../images/brickwall.jpeg");
+.races{
+    background-image: url("../images/brickwall.jpeg");
+    color:orange;
+    font-family: 'Courgette', cursive;
+    font-size:20px ;
 }
 
 /* About buttons */
@@ -168,3 +171,38 @@
     padding-bottom: 25vh;
 }
 
+
+
+   /*font family styling*/
+   .category{
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+   }
+   .category1 {
+    font-family: 'Autour One', cursive;
+
+   }
+   .container2{
+    font-family: 'Volkhov', serif;
+    
+   }
+
+#test{
+    font-family: 'Orbitron', sans-serif;
+   
+}
+  
+
+
+
+   .shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+
+   }
+   .timer {
+       color:orange
+   }
+   .timer p{
+       font-size: 15vh;
+        font-family: 'Wallpoet', cursive;
+   }
