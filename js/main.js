@@ -20,7 +20,7 @@ function register() {
 }
 
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 15, 2019 15:37:25").getTime();
+var countDownDate = new Date("Nov 16, 2019 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -74,10 +74,9 @@ $(document).ready(function() {
       $(".sprint").hide();
     });   
   });
+ 
 
 
   function race1(){
-    var street = document.getElementById("street").value;
-    var vehicle = document.getElementById("vehicle").value;
-      alert( "Hi "+street+ "You have been registered we cant wait to see your "+vehicle+"in the streets !")
+    $(".dis").show();
   }
