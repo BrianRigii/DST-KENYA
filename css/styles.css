@@ -40,7 +40,7 @@
   background-color: #000000;
   border-bottom: orange solid 1px;
   padding-left: 5vh;
-  
+
   
 }
 .dark {
@@ -108,12 +108,26 @@
 #about {
   font: bold;
   text-align: left;
+  padding-left: 90px; 
 }
 
 /* KeyFrame */
 .shake {
   animation: shake 0.1s infinite;
 }
+
+.interest{
+    color: black;
+    background-color: orange;
+    font-size: 20px;
+    text-align: center;
+    font-stretch:ultra-expanded;
+}
+
+
+/* .about p{
+  padding: 30px;
+} */
 
 @keyframes shake {
   from {
@@ -170,7 +184,6 @@
     padding-top: 19vh;
     padding-bottom: 19vh;
 }
-
 
 
    /*font family styling*/
