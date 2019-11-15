@@ -108,7 +108,7 @@
 #about {
   font: bold;
   text-align: left;
-  padding-left: 50px;
+  padding-left: 90px; 
 }
 
 /* KeyFrame */
@@ -122,11 +122,12 @@
     font-size: 20px;
     text-align: center;
     font-stretch:ultra-expanded;
-    text-align: center;
 }
-.about p{
+
+
+/* .about p{
   padding: 30px;
-}
+} */
 
 @keyframes shake {
   from {
