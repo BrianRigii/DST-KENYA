@@ -74,10 +74,9 @@ $(document).ready(function() {
       $(".sprint").hide();
     });   
   });
+ 
 
 
   function race1(){
-    var street = document.getElementById("street").value;
-    var vehicle = document.getElementById("vehicle").value;
-      alert( "Hi "+street+ "You have been registered we cant wait to see your "+vehicle+"in the streets !")
+    $(".dis").show();
   }
