@@ -1,33 +1,5 @@
-/*tooglin part*/
-
-$(document).ready(function() {
-    $(".sprints").click(function() {
-      $(".sprint").show();
-      $(".circuit").hide();
-      $(".drag").hide();
-    });   
-  });
-
-  $(document).ready(function() {
-    $(".circuits").click(function() {
-      $(".circuit").show();
-      $(".drag").hide();
-      $(".sprint").hide();
-    });   
-  });
-
-  $(document).ready(function() {
-    $(".drags").click(function() {
-      $(".drag").toggle();
-      $(".circuit").hide();
-      $(".sprint").hide();
-    });   
-  });
 
 
-  function race1(){
-      alert(  " be there 30 min to race time")
-  }
 
 
 
@@ -35,10 +7,7 @@ $(document).ready(function() {
 
 
 function register() {
-  var name = document.getElementById("name").value;
-  var street = document.getElementById("street").value;
-  var age = parseInt(document.getElementById("age").value);
-  var vehicle = document.getElementById("vehicle").value;
+ 
   if (age <= 17) {
     alert("Hi son, Yo to young  for this try again in a few years");
   } else {
@@ -77,3 +46,38 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "RACETIME";
   }
 }, 1000);
+
+
+
+/*tooglin part*/
+
+$(document).ready(function() {
+    $(".sprints").click(function() {
+      $(".sprint").show();
+      $(".circuit").hide();
+      $(".drag").hide();
+    });   
+  });
+
+  $(document).ready(function() {
+    $(".circuits").click(function() {
+      $(".circuit").show();
+      $(".drag").hide();
+      $(".sprint").hide();
+    });   
+  });
+
+  $(document).ready(function() {
+    $(".drags").click(function() {
+      $(".drag").toggle();
+      $(".circuit").hide();
+      $(".sprint").hide();
+    });   
+  });
+
+
+  function race1(){
+    var street = document.getElementById("street").value;
+    var vehicle = document.getElementById("vehicle").value;
+      alert( "Hi "+street+ "You have been registered we cant wait to see your "+vehicle+"in the streets !")
+  }
